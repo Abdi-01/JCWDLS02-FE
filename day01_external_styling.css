@@ -15,7 +15,7 @@
 
 /* Tag Selector : memilih berdasarkan nama tag elemennya*/
 h1 {
-    color: blue;
+    color: blue !important;
 }
 
 /* ID Selector : memilih berdasarkan atribute id dari element tersebut */
