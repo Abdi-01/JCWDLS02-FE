@@ -1,0 +1,47 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Variable css */
+:root {
+    --primary-color: aqua;
+}
+
+/* Selector : metode pemilihan element yang akan didekorasi */
+
+/* All Selector */
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Tag Selector : memilih berdasarkan nama tag elemennya*/
+h1 {
+    color: blue;
+}
+
+/* ID Selector : memilih berdasarkan atribute id dari element tersebut */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#content {
+    border: 2px solid red;
+}
+
+/* Class Selector */
+.bold-red {
+    font-weight: bold;
+    color: red;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Child Selector */
+#content>h2 {
+    color: blue;
+}
