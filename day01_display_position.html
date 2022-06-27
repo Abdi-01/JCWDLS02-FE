@@ -9,9 +9,12 @@
     <style>
         .container {
             width: 500px;
-            height: 1800px;
+            height: 500px;
             border: 2px solid blue;
             margin: auto;
+            display: flex;
+            justify-content:center;
+            align-items: flex-start;
         }
 
         .box {
@@ -22,11 +25,12 @@
         #box1 {
             background-color: blue;
         }
+
         #box2 {
             background-color: red;
-            position: absolute;
-            
+
         }
+
         #box3 {
             background-color: green;
         }
@@ -38,6 +42,9 @@
         <div id="box1" class="box">
 
         </div>
+        <div id="box3" class="box">
+
+        </div>
         <div id="box2" class="box">
 
         </div>
@@ -45,6 +52,10 @@
 
         </div>
     </div>
+    <ul style="display: flex;">
+        <li>Menu</li>
+        <li>About</li>
+    </ul>
 </body>
 
 </html>
