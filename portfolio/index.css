@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar {
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    width: 100%;
+    padding: 2% 15%;
+}
+
+#logo {
+    flex: 1;
+    border-bottom: 1px solid white;
+    padding-bottom: 2%;
+}
+
+#menu {
+    flex: 2;
+    border-bottom: 1px solid white;
+    padding-bottom: 2%;
+}
+
+#menu>ul {
+    height: 100%;
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#menu>ul>li {
+    cursor: pointer;
+}
+
+#banner {
+    /* background-color: #2c3e50; */
+    height: 70vh;
+    display: flex;
+    padding: 5% 15%;
+    background-image: url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+
+#banner>div {
+    flex: 1;
+}
+
+#category {
+    padding: 1% 15%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 70px;
+}
+
+.card {
+    padding: 8px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: white;
+    height: fit-content;
+}
+
+.shadow {
+    box-shadow: 0px 0px 8px 1px red;
+}
